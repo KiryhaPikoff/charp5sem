@@ -1,0 +1,12 @@
+D:\VisualStudioProjects\ClassLibrary\WindowsFormsApplication\bin\Debug\WindowsFormsApplication.exe.config
+D:\VisualStudioProjects\ClassLibrary\WindowsFormsApplication\bin\Debug\WindowsFormsApplication.exe
+D:\VisualStudioProjects\ClassLibrary\WindowsFormsApplication\bin\Debug\WindowsFormsApplication.pdb
+D:\VisualStudioProjects\ClassLibrary\WindowsFormsApplication\obj\Debug\WindowsFormsApplication.csprojAssemblyReference.cache
+D:\VisualStudioProjects\ClassLibrary\WindowsFormsApplication\obj\Debug\WindowsFormsApplication.FormMain.resources
+D:\VisualStudioProjects\ClassLibrary\WindowsFormsApplication\obj\Debug\WindowsFormsApplication.Properties.Resources.resources
+D:\VisualStudioProjects\ClassLibrary\WindowsFormsApplication\obj\Debug\WindowsFormsApplication.csproj.GenerateResource.cache
+D:\VisualStudioProjects\ClassLibrary\WindowsFormsApplication\obj\Debug\WindowsFormsApplication.csproj.CopyComplete
+D:\VisualStudioProjects\ClassLibrary\WindowsFormsApplication\obj\Debug\WindowsFormsApplication.exe
+D:\VisualStudioProjects\ClassLibrary\WindowsFormsApplication\obj\Debug\WindowsFormsApplication.pdb
+D:\VisualStudioProjects\ClassLibrary\WindowsFormsApplication\bin\Debug\ClassLibraryControlSelectedWinForms.dll
+D:\VisualStudioProjects\ClassLibrary\WindowsFormsApplication\bin\Debug\ClassLibraryControlSelectedWinForms.pdb
