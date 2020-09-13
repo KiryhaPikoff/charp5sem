@@ -22,6 +22,7 @@ namespace WindowsFormsApplication
                 values.Add(elem.ToString());
             }
             controlComboBoxSelected.values = values;
+            controlTextFieldPhone.ErrorColor = Color.FromArgb(255, 204, 204);
         }
 
         private void controlComboBoxSelected_ComboBoxSelectedElementChange(object sender, EventArgs e)

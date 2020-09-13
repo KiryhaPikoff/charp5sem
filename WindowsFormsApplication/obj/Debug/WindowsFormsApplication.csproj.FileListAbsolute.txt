@@ -10,3 +10,18 @@ D:\VisualStudioProjects\ClassLibrary\WindowsFormsApplication\obj\Debug\WindowsFo
 D:\VisualStudioProjects\ClassLibrary\WindowsFormsApplication\obj\Debug\WindowsFormsApplication.pdb
 D:\VisualStudioProjects\ClassLibrary\WindowsFormsApplication\bin\Debug\ClassLibraryControlSelectedWinForms.dll
 D:\VisualStudioProjects\ClassLibrary\WindowsFormsApplication\bin\Debug\ClassLibraryControlSelectedWinForms.pdb
+E:\MUSTHAVE\Учёба\5 сем\КОП\1\charp5sem\WindowsFormsApplication\bin\Debug\WindowsFormsApplication.exe.config
+E:\MUSTHAVE\Учёба\5 сем\КОП\1\charp5sem\WindowsFormsApplication\bin\Debug\WindowsFormsApplication.exe
+E:\MUSTHAVE\Учёба\5 сем\КОП\1\charp5sem\WindowsFormsApplication\bin\Debug\WindowsFormsApplication.pdb
+E:\MUSTHAVE\Учёба\5 сем\КОП\1\charp5sem\WindowsFormsApplication\bin\Debug\ClassLibraryControlSelectedWinForms.dll
+E:\MUSTHAVE\Учёба\5 сем\КОП\1\charp5sem\WindowsFormsApplication\bin\Debug\ClassLibraryControlSelectedWinForms.pdb
+E:\MUSTHAVE\Учёба\5 сем\КОП\1\charp5sem\WindowsFormsApplication\obj\Debug\WindowsFormsApplication.csprojAssemblyReference.cache
+E:\MUSTHAVE\Учёба\5 сем\КОП\1\charp5sem\WindowsFormsApplication\obj\Debug\WindowsFormsApplication.FormMain.resources
+E:\MUSTHAVE\Учёба\5 сем\КОП\1\charp5sem\WindowsFormsApplication\obj\Debug\WindowsFormsApplication.Properties.Resources.resources
+E:\MUSTHAVE\Учёба\5 сем\КОП\1\charp5sem\WindowsFormsApplication\obj\Debug\WindowsFormsApplication.csproj.GenerateResource.cache
+E:\MUSTHAVE\Учёба\5 сем\КОП\1\charp5sem\WindowsFormsApplication\obj\Debug\WindowsFormsApplication.csproj.CoreCompileInputs.cache
+E:\MUSTHAVE\Учёба\5 сем\КОП\1\charp5sem\WindowsFormsApplication\obj\Debug\WindowsFormsApplication.csproj.CopyComplete
+E:\MUSTHAVE\Учёба\5 сем\КОП\1\charp5sem\WindowsFormsApplication\obj\Debug\WindowsFormsApplication.exe
+E:\MUSTHAVE\Учёба\5 сем\КОП\1\charp5sem\WindowsFormsApplication\obj\Debug\WindowsFormsApplication.pdb
+E:\MUSTHAVE\Учёба\5 сем\КОП\1\charp5sem\WindowsFormsApplication\bin\Debug\ClassLibraryControlPhoneWinForms.dll
+E:\MUSTHAVE\Учёба\5 сем\КОП\1\charp5sem\WindowsFormsApplication\bin\Debug\ClassLibraryControlPhoneWinForms.pdb

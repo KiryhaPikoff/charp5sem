@@ -28,38 +28,48 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-			this.buttonChange = new System.Windows.Forms.Button();
-			this.controlComboBoxSelected = new WindowsFormsControlLibraryWinForms.ControlComboBoxSelected();
-			this.SuspendLayout();
-			// 
-			// buttonChange
-			// 
-			this.buttonChange.Location = new System.Drawing.Point(41, 81);
-			this.buttonChange.Name = "buttonChange";
-			this.buttonChange.Size = new System.Drawing.Size(75, 23);
-			this.buttonChange.TabIndex = 1;
-			this.buttonChange.Text = "Сменить номер";
-			this.buttonChange.UseVisualStyleBackColor = true;
-			this.buttonChange.Click += new System.EventHandler(this.buttonChange_Click);
-			// 
-			// controlComboBoxSelected
-			// 
-			this.controlComboBoxSelected.Location = new System.Drawing.Point(12, 12);
-			this.controlComboBoxSelected.Name = "controlComboBoxSelected";
-			this.controlComboBoxSelected.SelectedIndex = 0;
-			this.controlComboBoxSelected.Size = new System.Drawing.Size(177, 63);
-			this.controlComboBoxSelected.TabIndex = 0;
-			// 
-			// FormMain
-			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(800, 450);
-			this.Controls.Add(this.buttonChange);
-			this.Controls.Add(this.controlComboBoxSelected);
-			this.Name = "FormMain";
-			this.Text = "Формочка";
-			this.ResumeLayout(false);
+            this.buttonChange = new System.Windows.Forms.Button();
+            this.controlComboBoxSelected = new WindowsFormsControlLibraryWinForms.ControlComboBoxSelected();
+            this.controlTextFieldPhone = new ClassLibraryControlPhoneWinForms.ControlTextFieldPhone();
+            this.SuspendLayout();
+            // 
+            // buttonChange
+            // 
+            this.buttonChange.Location = new System.Drawing.Point(41, 81);
+            this.buttonChange.Name = "buttonChange";
+            this.buttonChange.Size = new System.Drawing.Size(75, 23);
+            this.buttonChange.TabIndex = 1;
+            this.buttonChange.Text = "Сменить номер";
+            this.buttonChange.UseVisualStyleBackColor = true;
+            this.buttonChange.Click += new System.EventHandler(this.buttonChange_Click);
+            // 
+            // controlComboBoxSelected
+            // 
+            this.controlComboBoxSelected.Location = new System.Drawing.Point(12, 12);
+            this.controlComboBoxSelected.Name = "controlComboBoxSelected";
+            this.controlComboBoxSelected.SelectedIndex = 0;
+            this.controlComboBoxSelected.Size = new System.Drawing.Size(177, 63);
+            this.controlComboBoxSelected.TabIndex = 0;
+            this.controlComboBoxSelected.values = null;
+            // 
+            // controlTextFieldPhone
+            // 
+            this.controlTextFieldPhone.Location = new System.Drawing.Point(278, 40);
+            this.controlTextFieldPhone.Name = "controlTextFieldPhone";
+            this.controlTextFieldPhone.Size = new System.Drawing.Size(204, 27);
+            this.controlTextFieldPhone.TabIndex = 2;
+            // 
+            // FormMain
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.controlTextFieldPhone);
+            this.Controls.Add(this.buttonChange);
+            this.Controls.Add(this.controlComboBoxSelected);
+            this.Name = "FormMain";
+            this.Text = "Формочка";
+            this.ResumeLayout(false);
 
 		}
 
@@ -67,6 +77,7 @@
 
 		private WindowsFormsControlLibraryWinForms.ControlComboBoxSelected controlComboBoxSelected;
 		private System.Windows.Forms.Button buttonChange;
-	}
+		private ClassLibraryControlPhoneWinForms.ControlTextFieldPhone controlTextFieldPhone;
+    }
 }
 

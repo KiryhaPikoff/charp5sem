@@ -108,6 +108,10 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ClassLibraryControlPhoneWinForms\ClassLibraryControlPhoneWinForms.csproj">
+      <Project>{9389EF40-F6AC-45EE-A336-F03AB82828FB}</Project>
+      <Name>ClassLibraryControlPhoneWinForms</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ClassLibraryControlSelectedWinForms\ClassLibraryControlSelectedWinForms.csproj">
       <Project>{9606b107-ed5a-45fd-b381-acbb6de81f31}</Project>
       <Name>ClassLibraryControlSelectedWinForms</Name>

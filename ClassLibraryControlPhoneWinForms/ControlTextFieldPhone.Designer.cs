@@ -28,30 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-			this.textBox1 = new System.Windows.Forms.TextBox();
-			this.SuspendLayout();
-			// 
-			// textBox1
-			// 
-			this.textBox1.Location = new System.Drawing.Point(3, 27);
-			this.textBox1.Name = "textBox1";
-			this.textBox1.Size = new System.Drawing.Size(198, 20);
-			this.textBox1.TabIndex = 0;
-			// 
-			// ControlTextFieldPhone
-			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.Controls.Add(this.textBox1);
-			this.Name = "ControlTextFieldPhone";
-			this.Size = new System.Drawing.Size(204, 50);
-			this.ResumeLayout(false);
-			this.PerformLayout();
+            this.textBox = new System.Windows.Forms.TextBox();
+            this.SuspendLayout();
+            // 
+            // textBox
+            // 
+            this.textBox.Location = new System.Drawing.Point(3, 3);
+            this.textBox.Name = "textBox";
+            this.textBox.Size = new System.Drawing.Size(198, 20);
+            this.textBox.TabIndex = 0;
+            this.textBox.TextChanged += new System.EventHandler(this.textBox_TextChanged);
+            this.textBox.Enter += new System.EventHandler(this.textBox_Enter);
+            this.textBox.Leave += new System.EventHandler(this.textBox_Leave);
+            // 
+            // ControlTextFieldPhone
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.textBox);
+            this.Name = "ControlTextFieldPhone";
+            this.Size = new System.Drawing.Size(204, 27);
+            this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox;
     }
 }

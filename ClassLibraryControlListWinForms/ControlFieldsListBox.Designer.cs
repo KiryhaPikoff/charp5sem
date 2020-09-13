@@ -1,6 +1,6 @@
-﻿namespace WindowsFormsControlLibraryWinForms
+﻿namespace ClassLibraryControlListWinForms
 {
-    partial class ControlComboBoxSelected
+    partial class ControlFieldsListBox
     {
         /// <summary>
         /// Обязательная переменная конструктора.
@@ -28,30 +28,30 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.comboBox = new System.Windows.Forms.ComboBox();
+            this.listBox = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
-            // comboBox
+            // listBox
             // 
-            this.comboBox.FormattingEnabled = true;
-            this.comboBox.Location = new System.Drawing.Point(0, 0);
-            this.comboBox.Name = "comboBox";
-            this.comboBox.Size = new System.Drawing.Size(121, 21);
-            this.comboBox.TabIndex = 0;
+            this.listBox.FormattingEnabled = true;
+            this.listBox.Location = new System.Drawing.Point(0, 0);
+            this.listBox.Name = "listBox";
+            this.listBox.Size = new System.Drawing.Size(207, 199);
+            this.listBox.TabIndex = 0;
             // 
-            // ControlComboBoxSelected
+            // ControlFieldsListBox
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.comboBox);
-            this.Name = "ControlComboBoxSelected";
-            this.Size = new System.Drawing.Size(122, 22);
+            this.Controls.Add(this.listBox);
+            this.Name = "ControlFieldsListBox";
+            this.Size = new System.Drawing.Size(208, 200);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.ComboBox comboBox;
+        private System.Windows.Forms.ListBox listBox;
     }
 }
