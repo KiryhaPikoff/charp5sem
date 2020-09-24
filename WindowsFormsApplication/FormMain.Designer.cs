@@ -31,6 +31,7 @@
             this.buttonChange = new System.Windows.Forms.Button();
             this.controlComboBoxSelected = new WindowsFormsControlLibraryWinForms.ControlComboBoxSelected();
             this.controlTextFieldPhone = new ClassLibraryControlPhoneWinForms.ControlTextFieldPhone();
+            this.controlFieldsListBox = new ClassLibraryControlListWinForms.ControlFieldsListBox();
             this.SuspendLayout();
             // 
             // buttonChange
@@ -50,20 +51,29 @@
             this.controlComboBoxSelected.SelectedIndex = 0;
             this.controlComboBoxSelected.Size = new System.Drawing.Size(177, 63);
             this.controlComboBoxSelected.TabIndex = 0;
-            this.controlComboBoxSelected.values = null;
             // 
             // controlTextFieldPhone
             // 
+            this.controlTextFieldPhone.ErrorColor = System.Drawing.Color.Empty;
             this.controlTextFieldPhone.Location = new System.Drawing.Point(278, 40);
             this.controlTextFieldPhone.Name = "controlTextFieldPhone";
             this.controlTextFieldPhone.Size = new System.Drawing.Size(204, 27);
             this.controlTextFieldPhone.TabIndex = 2;
+            // 
+            // controlFieldsListBox
+            // 
+            this.controlFieldsListBox.Location = new System.Drawing.Point(533, 159);
+            this.controlFieldsListBox.Name = "controlFieldsListBox";
+            this.controlFieldsListBox.SelectedIndex = 0;
+            this.controlFieldsListBox.Size = new System.Drawing.Size(208, 200);
+            this.controlFieldsListBox.TabIndex = 3;
             // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.controlFieldsListBox);
             this.Controls.Add(this.controlTextFieldPhone);
             this.Controls.Add(this.buttonChange);
             this.Controls.Add(this.controlComboBoxSelected);
@@ -78,6 +88,7 @@
 		private WindowsFormsControlLibraryWinForms.ControlComboBoxSelected controlComboBoxSelected;
 		private System.Windows.Forms.Button buttonChange;
 		private ClassLibraryControlPhoneWinForms.ControlTextFieldPhone controlTextFieldPhone;
+        private ClassLibraryControlListWinForms.ControlFieldsListBox controlFieldsListBox;
     }
 }
 

@@ -13,13 +13,28 @@ namespace ClassLibraryControlPhoneWinForms
 {
     public partial class ControlTextFieldPhone: UserControl
     {
+        /// <summary>
+        /// Подсказка, возникающая в элементе
+        /// </summary>
         private string tip = "+7xxxxxxxxxx";
+
+        /// <summary>
+        /// Что ввел пользователь
+        /// </summary>
         private string userInput = "";
 
+        /// <summary>
+        /// Что ввел пользователь
+        /// </summary>
+        [Category("Спецификация"), Description("Что ввел пользователь")]
         public string UserInput {
             get { return checkInput() ? userInput : ""; }
         }
 
+        /// <summary>
+        /// Цвет подсветки элемента при некорректном вводе
+        /// </summary>
+        [Category("Спецификация"), Description("Цвет подсветки элемента при некорректном вводе")]
         public Color ErrorColor {
             get; set;
         }

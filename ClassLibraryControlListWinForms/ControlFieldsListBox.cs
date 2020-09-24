@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Text.RegularExpressions;
+using System.Reflection;
 
 namespace ClassLibraryControlListWinForms
 {
@@ -19,14 +20,15 @@ namespace ClassLibraryControlListWinForms
         private int _selectedIndex;
 
         /// <summary>
-        /// Поля выводимого класса в указанном в шаблоне порядке
+        /// Объекты для вывода
         /// </summary>
-        private List<string> orderedFields;
+        private Object[] objects;
+
+        private string pattern;
 
         public ControlFieldsListBox()
         {
             InitializeComponent();
-            orderedFields = new List<string>();
         }
 
         /// <summary>
@@ -36,7 +38,31 @@ namespace ClassLibraryControlListWinForms
         public void setFieldsPattern(string pattern)
         {
             if (pattern.Length == 0) { return; }
-            orderedFields = Regex.Split(pattern, @"\s*").ToList();
+            this.pattern = pattern;
+        }
+
+        /// <summary>
+        /// Установка значения по номеру строки и названию поля
+        /// </summary>
+        [Category("Спецификация"), Description("Установка значения по номеру строки и названию поля")]
+        public void setValue(int row, string fieldName)
+        {
+            Type t = objects[0].GetType();
+            var field = t.GetProperty(fieldName, BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static | BindingFlags.Instance | BindingFlags.DeclaredOnly);
+            listBox.Items[row] = listBox.Items[row].ToString().Replace(fieldName, field.GetValue(objects[row]).ToString());
+        }
+
+        /// <summary>
+        /// Установка значения по номеру строки и названию поля
+        /// </summary>
+        [Category("Спецификация"), Description("Установка списка объектов")]
+        public void setData(Object[] objects)
+        {
+            this.objects = objects;
+            for(int i = 0; i < objects.Length; i++)
+            {
+                listBox.Items.Add(pattern);
+            }
         }
 
         /// <summary>

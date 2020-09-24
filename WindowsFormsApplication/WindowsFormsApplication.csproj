@@ -61,6 +61,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="values\TestClass.cs" />
     <Compile Include="values\TestEnum.cs" />
     <Compile Include="FormMain.cs">
       <SubType>Form</SubType>
@@ -108,6 +109,10 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ClassLibraryControlListWinForms\ClassLibraryControlListWinForms.csproj">
+      <Project>{acb43dd6-1103-403c-9e07-821ea54a2e58}</Project>
+      <Name>ClassLibraryControlListWinForms</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ClassLibraryControlPhoneWinForms\ClassLibraryControlPhoneWinForms.csproj">
       <Project>{9389EF40-F6AC-45EE-A336-F03AB82828FB}</Project>
       <Name>ClassLibraryControlPhoneWinForms</Name>

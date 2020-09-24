@@ -25,3 +25,5 @@ E:\MUSTHAVE\Учёба\5 сем\КОП\1\charp5sem\WindowsFormsApplication\obj\D
 E:\MUSTHAVE\Учёба\5 сем\КОП\1\charp5sem\WindowsFormsApplication\obj\Debug\WindowsFormsApplication.pdb
 E:\MUSTHAVE\Учёба\5 сем\КОП\1\charp5sem\WindowsFormsApplication\bin\Debug\ClassLibraryControlPhoneWinForms.dll
 E:\MUSTHAVE\Учёба\5 сем\КОП\1\charp5sem\WindowsFormsApplication\bin\Debug\ClassLibraryControlPhoneWinForms.pdb
+E:\MUSTHAVE\Учёба\5 сем\КОП\1\charp5sem\WindowsFormsApplication\bin\Debug\ClassLibraryControlListWinForms.dll
+E:\MUSTHAVE\Учёба\5 сем\КОП\1\charp5sem\WindowsFormsApplication\bin\Debug\ClassLibraryControlListWinForms.pdb
