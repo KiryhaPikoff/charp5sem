@@ -29,3 +29,9 @@ E:\MUSTHAVE\Учёба\5 сем\КОП\1\charp5sem\WindowsFormsApplication\bin\D
 E:\MUSTHAVE\Учёба\5 сем\КОП\1\charp5sem\WindowsFormsApplication\bin\Debug\ClassLibraryControlListWinForms.pdb
 E:\MUSTHAVE\Учёба\5 сем\КОП\1\charp5sem\WindowsFormsApplication\bin\Debug\ClassLibraryXmlBackupControl.dll
 E:\MUSTHAVE\Учёба\5 сем\КОП\1\charp5sem\WindowsFormsApplication\bin\Debug\ClassLibraryXmlBackupControl.pdb
+E:\MUSTHAVE\Учёба\5 сем\КОП\1\charp5sem\WindowsFormsApplication\bin\Debug\ClassLibraryExcelReporter.dll
+E:\MUSTHAVE\Учёба\5 сем\КОП\1\charp5sem\WindowsFormsApplication\bin\Debug\DocumentFormat.OpenXml.dll
+E:\MUSTHAVE\Учёба\5 сем\КОП\1\charp5sem\WindowsFormsApplication\bin\Debug\ClassLibraryExcelReporter.pdb
+E:\MUSTHAVE\Учёба\5 сем\КОП\1\charp5sem\WindowsFormsApplication\bin\Debug\DocumentFormat.OpenXml.xml
+E:\MUSTHAVE\Учёба\5 сем\КОП\1\charp5sem\WindowsFormsApplication\bin\Debug\System.IO.Packaging.dll
+E:\MUSTHAVE\Учёба\5 сем\КОП\1\charp5sem\WindowsFormsApplication\bin\Debug\System.IO.Packaging.xml

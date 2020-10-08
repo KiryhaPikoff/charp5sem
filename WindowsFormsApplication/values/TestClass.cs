@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApplication.values
 {
+    [Serializable]
     public class TestClass
     {
         public int id { get; set; }

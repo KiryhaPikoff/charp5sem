@@ -33,6 +33,7 @@
             this.controlTextFieldPhone = new ClassLibraryControlPhoneWinForms.ControlTextFieldPhone();
             this.controlFieldsListBox = new ClassLibraryControlListWinForms.ControlFieldsListBox();
             this.xmlBackupComponent = new ClassLibraryXmlBackupControl.XmlBackupComponent();
+            this.excelReporterComponent = new ClassLibraryExcelReporter.ExcelReporterComponent();
             this.SuspendLayout();
             // 
             // buttonChange
@@ -91,6 +92,7 @@
 		private ClassLibraryControlPhoneWinForms.ControlTextFieldPhone controlTextFieldPhone;
         private ClassLibraryControlListWinForms.ControlFieldsListBox controlFieldsListBox;
         private ClassLibraryXmlBackupControl.XmlBackupComponent xmlBackupComponent;
+        private ClassLibraryExcelReporter.ExcelReporterComponent excelReporterComponent;
     }
 }
 
