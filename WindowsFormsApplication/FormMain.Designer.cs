@@ -32,6 +32,7 @@
             this.controlComboBoxSelected = new WindowsFormsControlLibraryWinForms.ControlComboBoxSelected();
             this.controlTextFieldPhone = new ClassLibraryControlPhoneWinForms.ControlTextFieldPhone();
             this.controlFieldsListBox = new ClassLibraryControlListWinForms.ControlFieldsListBox();
+            this.xmlBackupComponent = new ClassLibraryXmlBackupControl.XmlBackupComponent();
             this.SuspendLayout();
             // 
             // buttonChange
@@ -89,6 +90,7 @@
 		private System.Windows.Forms.Button buttonChange;
 		private ClassLibraryControlPhoneWinForms.ControlTextFieldPhone controlTextFieldPhone;
         private ClassLibraryControlListWinForms.ControlFieldsListBox controlFieldsListBox;
+        private ClassLibraryXmlBackupControl.XmlBackupComponent xmlBackupComponent;
     }
 }
 

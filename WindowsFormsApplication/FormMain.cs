@@ -46,6 +46,8 @@ namespace WindowsFormsApplication
             controlFieldsListBox.setValue(1, "name");
             controlFieldsListBox.setValue(2, "price");
             controlFieldsListBox.setValue(3, "price");
+
+            xmlBackupComponent.saveData<TestClass>("E:/work/1/2", list.ToArray());
         }
 
         private void controlComboBoxSelected_ComboBoxSelectedElementChange(object sender, EventArgs e)

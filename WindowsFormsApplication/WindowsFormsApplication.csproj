@@ -121,6 +121,10 @@
       <Project>{9606b107-ed5a-45fd-b381-acbb6de81f31}</Project>
       <Name>ClassLibraryControlSelectedWinForms</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ClassLibraryXmlBackupControl\ClassLibraryXmlBackupControl.csproj">
+      <Project>{c46d7c61-9ff2-470b-844b-e4afbf253024}</Project>
+      <Name>ClassLibraryXmlBackupControl</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
