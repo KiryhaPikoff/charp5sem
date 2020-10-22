@@ -39,7 +39,7 @@ namespace ClassLibraryXmlBackupControl
                 tempDir.Delete(true);
             }
             catch (Exception ex) {
-                throw new Exception("Ошибка сериализации");
+                throw new Exception("Ошибка сериализации", ex);
             }
         }
     }

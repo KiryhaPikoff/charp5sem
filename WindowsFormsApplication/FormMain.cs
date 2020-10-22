@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MigraDoc.DocumentObjectModel.Shapes.Charts;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -47,8 +48,17 @@ namespace WindowsFormsApplication
             controlFieldsListBox.setValue(2, "price");
             controlFieldsListBox.setValue(3, "price");
 
-            //    xmlBackupComponent.saveData<TestClass>("E:/work/1/2", list.ToArray());
-            excelReporterComponent.CreateExcelReport<TestClass>("E:/work/1/2", "otch", false, list.ToArray());
+            xmlBackupComponent.saveData<TestClass>("D:/1/2", list.ToArray());
+            excelReporterComponent.CreateExcelReport<TestClass>("D:/1/2/otch.xlsx", false, list.ToArray());
+
+            value1.same = 2;
+            value1.some = 5;
+            value1.last = 10;
+            value1.price = 7;
+            value1.weight = 11;
+            value1.age = 1;
+            value1.another = 4;
+            pdfDiagramComponent.createPdfDeiagram<TestClass>("D:/1/2/otch.pdf", value1, DataLabelType.Percent);
         }
 
         private void controlComboBoxSelected_ComboBoxSelectedElementChange(object sender, EventArgs e)

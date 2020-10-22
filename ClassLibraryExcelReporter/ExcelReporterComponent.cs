@@ -12,8 +12,8 @@ namespace ClassLibraryExcelReporter
 {
     public partial class ExcelReporterComponent : Component
     {
-        public void CreateExcelReport<T>(string path, string fileName, bool isHorizontalHead, T[] data) {
-            using (var spreadsheetDocument = SpreadsheetDocument.Create(path + "/" + fileName + ".xlsx", SpreadsheetDocumentType.Workbook))
+        public void CreateExcelReport<T>(string fileName, bool isHorizontalHead, T[] data) {
+            using (var spreadsheetDocument = SpreadsheetDocument.Create(fileName, SpreadsheetDocumentType.Workbook))
             {
                 // Создаем книгу (в ней хранятся листы)
                 var workbookpart = spreadsheetDocument.AddWorkbookPart();
@@ -35,8 +35,7 @@ namespace ClassLibraryExcelReporter
                 WorksheetPart worksheetPart = workbookpart.AddNewPart<WorksheetPart>();
                 worksheetPart.Worksheet = new Worksheet(new SheetData());
                 // Добавляем лист в книгу
-                Sheets sheets =
-               spreadsheetDocument.WorkbookPart.Workbook.AppendChild<Sheets>(new Sheets());
+                Sheets sheets = spreadsheetDocument.WorkbookPart.Workbook.AppendChild<Sheets>(new Sheets());
                 Sheet sheet = new Sheet()
                 {
                     Id = spreadsheetDocument.WorkbookPart.GetIdOfPart(worksheetPart),
@@ -47,25 +46,31 @@ namespace ClassLibraryExcelReporter
 
                 var fields = typeof(T).GetProperties(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static | BindingFlags.Instance | BindingFlags.DeclaredOnly);
 
-                var startColumnFrom = isHorizontalHead ? 1 : 3;
-                var startRowFrom    = isHorizontalHead ? 2 : 1;
+                var fieldNumHead = 1;
+                foreach (var field in fields)
+                {
+                    var column = this.GetExcelColumnName(isHorizontalHead ? fieldNumHead : 1);
+                    var rowIndex = isHorizontalHead ? (uint)1 : (uint)fieldNumHead;
+                    InsertCellInWorksheet(new ExcelCellParameters
+                    {
+                        Worksheet = worksheetPart.Worksheet,
+                        ShareStringPart = shareStringPart,
+                        ColumnName = column,
+                        RowIndex = rowIndex,
+                        Text = field.Name,
+                        StyleIndex = 0U
+                    });
+                    fieldNumHead++;
+                }
 
-                var dataRowNum = startRowFrom;
+                var dataRowNum = 2;
                 foreach (var dataRow in data) {
-                    var fieldNum = startColumnFrom;
+                    var fieldNum = 1;
                     foreach (var field in fields) {
                         var column = string.Empty;
                         var rowIndex = 0U;
-                        if (isHorizontalHead)
-                        {
-                            column = this.GetExcelColumnName(fieldNum);
-                            rowIndex = (uint) dataRowNum;
-                        }
-                        else
-                        {
-                            column = this.GetExcelColumnName(dataRowNum);
-                            rowIndex = (uint) fieldNum;
-                        }
+                        column = this.GetExcelColumnName(isHorizontalHead ? fieldNum : dataRowNum);
+                        rowIndex = isHorizontalHead ? (uint)dataRowNum : (uint)fieldNum;
                         InsertCellInWorksheet(new ExcelCellParameters
                         {
                             Worksheet = worksheetPart.Worksheet,
