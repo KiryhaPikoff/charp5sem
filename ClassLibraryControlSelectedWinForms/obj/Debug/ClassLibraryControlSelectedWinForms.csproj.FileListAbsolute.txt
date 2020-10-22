@@ -12,7 +12,6 @@ E:\MUSTHAVE\Учёба\5 сем\КОП\1\charp5sem\ClassLibraryControlSelectedWi
 E:\MUSTHAVE\Учёба\5 сем\КОП\1\charp5sem\ClassLibraryControlSelectedWinForms\obj\Debug\ClassLibraryControlSelectedWinForms.csproj.CoreCompileInputs.cache
 E:\MUSTHAVE\Учёба\5 сем\КОП\1\charp5sem\ClassLibraryControlSelectedWinForms\obj\Debug\ClassLibraryControlSelectedWinForms.dll
 E:\MUSTHAVE\Учёба\5 сем\КОП\1\charp5sem\ClassLibraryControlSelectedWinForms\obj\Debug\ClassLibraryControlSelectedWinForms.pdb
-E:\MUSTHAVE\Учёба\5 сем\КОП\1\charp5sem\ClassLibraryControlSelectedWinForms\obj\Debug\ClassLibraryControlSelectedWinForms.csprojAssemblyReference.cache
 C:\Users\user\Desktop\charp5sem-master\ClassLibraryControlSelectedWinForms\bin\Debug\ClassLibraryControlSelectedWinForms.dll
 C:\Users\user\Desktop\charp5sem-master\ClassLibraryControlSelectedWinForms\bin\Debug\ClassLibraryControlSelectedWinForms.pdb
 C:\Users\user\Desktop\charp5sem-master\ClassLibraryControlSelectedWinForms\obj\Debug\ClassLibraryControlSelectedWinForms.csprojAssemblyReference.cache
@@ -20,3 +19,4 @@ C:\Users\user\Desktop\charp5sem-master\ClassLibraryControlSelectedWinForms\obj\D
 C:\Users\user\Desktop\charp5sem-master\ClassLibraryControlSelectedWinForms\obj\Debug\ClassLibraryControlSelectedWinForms.csproj.GenerateResource.cache
 C:\Users\user\Desktop\charp5sem-master\ClassLibraryControlSelectedWinForms\obj\Debug\ClassLibraryControlSelectedWinForms.dll
 C:\Users\user\Desktop\charp5sem-master\ClassLibraryControlSelectedWinForms\obj\Debug\ClassLibraryControlSelectedWinForms.pdb
+E:\MUSTHAVE\Учёба\5 сем\КОП\1\charp5sem\ClassLibraryControlSelectedWinForms\obj\Debug\ClassLibraryControlSelectedWinForms.csprojAssemblyReference.cache

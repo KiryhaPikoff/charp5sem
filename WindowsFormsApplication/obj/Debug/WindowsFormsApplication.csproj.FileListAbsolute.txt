@@ -76,3 +76,20 @@ C:\Users\user\Desktop\charp5sem-master\WindowsFormsApplication\bin\Debug\de\Migr
 C:\Users\user\Desktop\charp5sem-master\WindowsFormsApplication\bin\Debug\de\MigraDoc.RtfRendering.resources.dll
 C:\Users\user\Desktop\charp5sem-master\WindowsFormsApplication\bin\Debug\de\PdfSharp.resources.dll
 C:\Users\user\Desktop\charp5sem-master\WindowsFormsApplication\bin\Debug\de\PdfSharp.Charting.resources.dll
+E:\MUSTHAVE\Учёба\5 сем\КОП\1\charp5sem\WindowsFormsApplication\bin\Debug\ClassLibraryPdfDiagramControl.dll
+E:\MUSTHAVE\Учёба\5 сем\КОП\1\charp5sem\WindowsFormsApplication\bin\Debug\MigraDoc.DocumentObjectModel.dll
+E:\MUSTHAVE\Учёба\5 сем\КОП\1\charp5sem\WindowsFormsApplication\bin\Debug\MigraDoc.Rendering.dll
+E:\MUSTHAVE\Учёба\5 сем\КОП\1\charp5sem\WindowsFormsApplication\bin\Debug\MigraDoc.RtfRendering.dll
+E:\MUSTHAVE\Учёба\5 сем\КОП\1\charp5sem\WindowsFormsApplication\bin\Debug\PdfSharp.Charting.dll
+E:\MUSTHAVE\Учёба\5 сем\КОП\1\charp5sem\WindowsFormsApplication\bin\Debug\PdfSharp.dll
+E:\MUSTHAVE\Учёба\5 сем\КОП\1\charp5sem\WindowsFormsApplication\bin\Debug\ClassLibraryPdfDiagramControl.pdb
+E:\MUSTHAVE\Учёба\5 сем\КОП\1\charp5sem\WindowsFormsApplication\bin\Debug\MigraDoc.DocumentObjectModel.xml
+E:\MUSTHAVE\Учёба\5 сем\КОП\1\charp5sem\WindowsFormsApplication\bin\Debug\MigraDoc.Rendering.xml
+E:\MUSTHAVE\Учёба\5 сем\КОП\1\charp5sem\WindowsFormsApplication\bin\Debug\MigraDoc.RtfRendering.xml
+E:\MUSTHAVE\Учёба\5 сем\КОП\1\charp5sem\WindowsFormsApplication\bin\Debug\PdfSharp.xml
+E:\MUSTHAVE\Учёба\5 сем\КОП\1\charp5sem\WindowsFormsApplication\bin\Debug\PdfSharp.Charting.xml
+E:\MUSTHAVE\Учёба\5 сем\КОП\1\charp5sem\WindowsFormsApplication\bin\Debug\de\MigraDoc.DocumentObjectModel.resources.dll
+E:\MUSTHAVE\Учёба\5 сем\КОП\1\charp5sem\WindowsFormsApplication\bin\Debug\de\MigraDoc.Rendering.resources.dll
+E:\MUSTHAVE\Учёба\5 сем\КОП\1\charp5sem\WindowsFormsApplication\bin\Debug\de\MigraDoc.RtfRendering.resources.dll
+E:\MUSTHAVE\Учёба\5 сем\КОП\1\charp5sem\WindowsFormsApplication\bin\Debug\de\PdfSharp.resources.dll
+E:\MUSTHAVE\Учёба\5 сем\КОП\1\charp5sem\WindowsFormsApplication\bin\Debug\de\PdfSharp.Charting.resources.dll
