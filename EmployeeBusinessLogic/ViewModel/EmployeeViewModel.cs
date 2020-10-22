@@ -6,7 +6,7 @@ using System.Text;
 
 namespace EmployeeBusinessLogic.ViewModel
 {
-    class EmployeeViewModel
+    public class EmployeeViewModel
     {
 
         public int Id { get; set; }

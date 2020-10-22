@@ -2,6 +2,7 @@
 using EmployeeBusinessLogic.repository;
 using EmployeeBusinessLogic.repository.models;
 using EmployeeBusinessLogic.service;
+using EmployeeBusinessLogic.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -66,14 +67,14 @@ namespace EmployeeBusinessLogic.Service
             }
         }
 
-        public List<Employee> Read(EmployeeBindingModel filter)
+        public List<EmployeeViewModel> Read(EmployeeBindingModel filter)
         {
             using (var context = new EmployeesDatabase())
             {
                 return context.Employees
                 .Where(rec => filter == null || rec.Id == filter.Id)
                 .ToList()
-               .Select(rec => new Employee
+               .Select(rec => new EmployeeViewModel
                {
                    Id = rec.Id,
                    Name = rec.Name,

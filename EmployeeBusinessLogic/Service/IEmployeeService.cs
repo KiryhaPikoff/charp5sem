@@ -1,5 +1,6 @@
 ﻿using EmployeeBusinessLogic.BindingModel;
 using EmployeeBusinessLogic.repository.models;
+using EmployeeBusinessLogic.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -11,7 +12,7 @@ namespace EmployeeBusinessLogic.service
 
         void CreateOrUpdate(EmployeeBindingModel model);
 
-        List<Employee> Read(EmployeeBindingModel filter);
+        List<EmployeeViewModel> Read(EmployeeBindingModel filter);
 
         void Delete(EmployeeBindingModel model);
     }
