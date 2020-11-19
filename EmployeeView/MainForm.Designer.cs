@@ -32,7 +32,14 @@
             this.controlDataTreeTable = new WindowsFormsControlLibrary.Data.ControlDataTreeTable();
             this.createEmployeeButton = new System.Windows.Forms.Button();
             this.backupSaveButton = new System.Windows.Forms.Button();
+            this.vacationWordButton = new System.Windows.Forms.Button();
+            this.positionWordButton = new System.Windows.Forms.Button();
+            this.componentWordJoinColumnsHeader = new WindowsFormsComponentLibrary.Report.ComponentWordJoinColumnsHeader();
+            this.createJuniorBtn = new System.Windows.Forms.Button();
+            this.createMiddleBtn = new System.Windows.Forms.Button();
+            this.createSeniorBtn = new System.Windows.Forms.Button();
             this.xmlBackupComponent = new ClassLibraryXmlBackupControl.XmlBackupComponent();
+            this.employeeCreateComponent = new ClassLibraryCreationalPatterns.EmployeeCreateComponent();
             this.SuspendLayout();
             // 
             // controlSelectedListBoxSingle1
@@ -63,7 +70,7 @@
             // 
             // backupSaveButton
             // 
-            this.backupSaveButton.Location = new System.Drawing.Point(685, 52);
+            this.backupSaveButton.Location = new System.Drawing.Point(685, 289);
             this.backupSaveButton.Name = "backupSaveButton";
             this.backupSaveButton.Size = new System.Drawing.Size(103, 33);
             this.backupSaveButton.TabIndex = 3;
@@ -71,11 +78,65 @@
             this.backupSaveButton.UseVisualStyleBackColor = true;
             this.backupSaveButton.Click += new System.EventHandler(this.backupSaveButton_Click);
             // 
+            // vacationWordButton
+            // 
+            this.vacationWordButton.Location = new System.Drawing.Point(685, 329);
+            this.vacationWordButton.Name = "vacationWordButton";
+            this.vacationWordButton.Size = new System.Drawing.Size(103, 56);
+            this.vacationWordButton.TabIndex = 4;
+            this.vacationWordButton.Text = "Диаграмма по отпускам";
+            this.vacationWordButton.UseVisualStyleBackColor = true;
+            // 
+            // positionWordButton
+            // 
+            this.positionWordButton.Location = new System.Drawing.Point(685, 391);
+            this.positionWordButton.Name = "positionWordButton";
+            this.positionWordButton.Size = new System.Drawing.Size(103, 56);
+            this.positionWordButton.TabIndex = 5;
+            this.positionWordButton.Text = "Отчет по должностям";
+            this.positionWordButton.UseVisualStyleBackColor = true;
+            this.positionWordButton.Click += new System.EventHandler(this.positionWordButton_Click);
+            // 
+            // createJuniorBtn
+            // 
+            this.createJuniorBtn.Location = new System.Drawing.Point(685, 51);
+            this.createJuniorBtn.Name = "createJuniorBtn";
+            this.createJuniorBtn.Size = new System.Drawing.Size(103, 32);
+            this.createJuniorBtn.TabIndex = 6;
+            this.createJuniorBtn.Text = "Создать Джуна";
+            this.createJuniorBtn.UseVisualStyleBackColor = true;
+            this.createJuniorBtn.Click += new System.EventHandler(this.createJuniorBtn_Click);
+            // 
+            // createMiddleBtn
+            // 
+            this.createMiddleBtn.Location = new System.Drawing.Point(684, 89);
+            this.createMiddleBtn.Name = "createMiddleBtn";
+            this.createMiddleBtn.Size = new System.Drawing.Size(103, 32);
+            this.createMiddleBtn.TabIndex = 7;
+            this.createMiddleBtn.Text = "Создать Мидла";
+            this.createMiddleBtn.UseVisualStyleBackColor = true;
+            this.createMiddleBtn.Click += new System.EventHandler(this.createMiddleBtn_Click);
+            // 
+            // createSeniorBtn
+            // 
+            this.createSeniorBtn.Location = new System.Drawing.Point(684, 127);
+            this.createSeniorBtn.Name = "createSeniorBtn";
+            this.createSeniorBtn.Size = new System.Drawing.Size(103, 32);
+            this.createSeniorBtn.TabIndex = 8;
+            this.createSeniorBtn.Text = "Создать Сеньёра";
+            this.createSeniorBtn.UseVisualStyleBackColor = true;
+            this.createSeniorBtn.Click += new System.EventHandler(this.createSeniorBtn_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.createSeniorBtn);
+            this.Controls.Add(this.createMiddleBtn);
+            this.Controls.Add(this.createJuniorBtn);
+            this.Controls.Add(this.positionWordButton);
+            this.Controls.Add(this.vacationWordButton);
             this.Controls.Add(this.backupSaveButton);
             this.Controls.Add(this.createEmployeeButton);
             this.Controls.Add(this.controlDataTreeTable);
@@ -94,6 +155,13 @@
         private System.Windows.Forms.Button createEmployeeButton;
         private System.Windows.Forms.Button backupSaveButton;
         private ClassLibraryXmlBackupControl.XmlBackupComponent xmlBackupComponent;
+        private System.Windows.Forms.Button vacationWordButton;
+        private System.Windows.Forms.Button positionWordButton;
+        private WindowsFormsComponentLibrary.Report.ComponentWordJoinColumnsHeader componentWordJoinColumnsHeader;
+        private System.Windows.Forms.Button createJuniorBtn;
+        private System.Windows.Forms.Button createMiddleBtn;
+        private System.Windows.Forms.Button createSeniorBtn;
+        private ClassLibraryCreationalPatterns.EmployeeCreateComponent employeeCreateComponent;
     }
 }
 

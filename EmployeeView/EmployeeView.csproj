@@ -256,6 +256,10 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ClassLibraryCreationalPatterns\ClassLibraryCreationalPatterns.csproj">
+      <Project>{0BAEDE6C-8C0C-4CDF-984F-ACCDB824175C}</Project>
+      <Name>ClassLibraryCreationalPatterns</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ClassLibraryXmlBackupControl\ClassLibraryXmlBackupControl.csproj">
       <Project>{C46D7C61-9FF2-470B-844B-E4AFBF253024}</Project>
       <Name>ClassLibraryXmlBackupControl</Name>

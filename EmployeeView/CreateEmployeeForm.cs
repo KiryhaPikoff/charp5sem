@@ -21,6 +21,16 @@ namespace EmployeeView
 
         private readonly IEmployeeService employeeService;
 
+        public EmployeeBindingModel Employee { 
+            get { return Employee; }
+            set {
+                nameTextBox.Text = value.Name;
+                surnameTextBox.Text = value.Surname;
+                patronymicTextBox.Text = value.Patronymic;
+                controlSelectedComboBoxEnum.SelectedItem = value.Position;
+            } 
+        }
+
         public CreateEmployeeForm(IEmployeeService employeeService)
         {
             InitializeComponent();

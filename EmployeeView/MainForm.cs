@@ -1,4 +1,6 @@
-﻿using EmployeeBusinessLogic.service;
+﻿using EmployeeBusinessLogic.BindingModel;
+using EmployeeBusinessLogic.repository.models;
+using EmployeeBusinessLogic.service;
 using EmployeeBusinessLogic.ViewModel;
 using System;
 using System.Collections.Generic;
@@ -64,6 +66,35 @@ namespace EmployeeView
 
             controlDataTreeTable.LoadTreeInfo(treeInfo);
             controlDataTreeTable.AddTable(employees);
+        }
+
+        private void positionWordButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void createJuniorBtn_Click(object sender, EventArgs e)
+        {
+            var form = Container.Resolve<CreateEmployeeForm>();
+            form.Employee = employeeCreateComponent.createEmployee(Position.JUNIOR);
+            form.ShowDialog();
+            LoadData();
+        }
+
+        private void createMiddleBtn_Click(object sender, EventArgs e)
+        {
+            var form = Container.Resolve<CreateEmployeeForm>();
+            form.Employee = employeeCreateComponent.createEmployee(Position.MIDDLE);
+            form.ShowDialog();
+            LoadData();
+        }
+
+        private void createSeniorBtn_Click(object sender, EventArgs e)
+        {
+            var form = Container.Resolve<CreateEmployeeForm>();
+            form.Employee = employeeCreateComponent.createEmployee(Position.SENIOR);
+            form.ShowDialog();
+            LoadData();
         }
     }
 }

@@ -27,6 +27,7 @@ namespace EmployeeView
         {
             var currentContainer = new UnityContainer();
             currentContainer.RegisterType<IEmployeeService, EmployeeService>(new HierarchicalLifetimeManager());
+            currentContainer.RegisterType<EmployeeService>(new HierarchicalLifetimeManager());
             return currentContainer;
         }
     }
