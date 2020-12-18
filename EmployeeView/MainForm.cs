@@ -34,8 +34,6 @@ namespace EmployeeView
             LoadData();
         }
 
-
-
         private void backupSaveButton_Click(object sender, EventArgs e)
         {
             var employees = employeeService.Read(null);
@@ -95,6 +93,12 @@ namespace EmployeeView
             form.Employee = employeeCreateComponent.createEmployee(Position.SENIOR);
             form.ShowDialog();
             LoadData();
+        }
+
+        private void buttonPlugs_Click(object sender, EventArgs e)
+        {
+            var form = Container.Resolve<PluginsForm>();
+            form.ShowDialog();
         }
     }
 }

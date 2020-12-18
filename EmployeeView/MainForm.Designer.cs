@@ -40,6 +40,7 @@
             this.createSeniorBtn = new System.Windows.Forms.Button();
             this.xmlBackupComponent = new ClassLibraryXmlBackupControl.XmlBackupComponent();
             this.employeeCreateComponent = new ClassLibraryCreationalPatterns.EmployeeCreateComponent();
+            this.buttonPlugs = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // controlSelectedListBoxSingle1
@@ -127,11 +128,22 @@
             this.createSeniorBtn.UseVisualStyleBackColor = true;
             this.createSeniorBtn.Click += new System.EventHandler(this.createSeniorBtn_Click);
             // 
+            // buttonPlugs
+            // 
+            this.buttonPlugs.Location = new System.Drawing.Point(698, 165);
+            this.buttonPlugs.Name = "buttonPlugs";
+            this.buttonPlugs.Size = new System.Drawing.Size(75, 23);
+            this.buttonPlugs.TabIndex = 9;
+            this.buttonPlugs.Text = "Плагины";
+            this.buttonPlugs.UseVisualStyleBackColor = true;
+            this.buttonPlugs.Click += new System.EventHandler(this.buttonPlugs_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.buttonPlugs);
             this.Controls.Add(this.createSeniorBtn);
             this.Controls.Add(this.createMiddleBtn);
             this.Controls.Add(this.createJuniorBtn);
@@ -162,6 +174,7 @@
         private System.Windows.Forms.Button createMiddleBtn;
         private System.Windows.Forms.Button createSeniorBtn;
         private ClassLibraryCreationalPatterns.EmployeeCreateComponent employeeCreateComponent;
+        private System.Windows.Forms.Button buttonPlugs;
     }
 }
 
