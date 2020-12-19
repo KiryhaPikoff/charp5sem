@@ -71,15 +71,5 @@ namespace EmployeeView
             }
             UpdateData();
         }
-
-        /* private void buttonReport_Click(object sender, EventArgs e)
-         {
-             Action<IEnumerable<Unit>> temp;
-             manager.report.TryGetValue(comboBoxPlugins.Text, out temp);
-             List<Unit> units = new List<Unit>();
-             units.Add(employeeService.Read(null)[controlDataTableRow1.SelectedRowIndex]);
-             units.Add(employeeService.Read(null)[controlDataTableRow2.SelectedRowIndex]);
-             temp.Invoke(units);
-         }*/
     }
 }
